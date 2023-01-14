@@ -15,7 +15,10 @@ body {
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
 }
-
+a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
 .container {
     margin: 0 auto;
     padding: 0 30px;
